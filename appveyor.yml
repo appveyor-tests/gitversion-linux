@@ -6,6 +6,6 @@ init:
  
 test_script:
   - sh: ls -ltra /var/tmp
-  - sh: GitVersion /version
+  - sh: gitversion /version
   
 build: off
